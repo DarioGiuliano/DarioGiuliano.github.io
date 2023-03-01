@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico - Curso Argentina Programa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="randomuser.js"></script>
+    <script src="textocolapsable.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"></head>
+<body>
+  <div class="contenedor">
+    <h1>Currículum Vitae</h1>
+      <img id="photo" alt="Foto de usuario">
+      <h4 id="full-name"></h4>
+    <button type="button" class="colapsable">Datos Personales</button>
+    <div class="content">
+        <p id="pdFirstName"></p>
+        <p id="pdLastName"></p>
+        <p id="pdAge"></p>
+        <p id="pdEmail"></p>
+        <p id="pdPhone"></p>
+        <p id="pdAdress"></p>
+    </div>
+    <button type="button" class="colapsable">Educación</button>
+    <div class="content">
+      <ul>
+        <li>Licenciatura en Administración de Empresas, Universidad de Buenos Aires (UBA), Buenos Aires, Argentina, 2017-2021.</li>
+        <br> 
+        <li> Bachillerato en Ciencias Sociales y Humanidades, Instituto Nacional Buenos Aires (INBA), Buenos Aires, Argentina, 2012-2016.</li>
+        <br> 
+        <li>Curso de Marketing Digital, Digital House, Buenos Aires, Argentina, 2021.</li>
+        <br> 
+        <li>Certificación en Liderazgo y Gestión de Equipos, Instituto Tecnológico de Buenos Aires (ITBA), Buenos Aires, Argentina, 2020.</li>
+        <br> 
+        <li>Curso de Excel Avanzado, Centro de Estudios Empresariales (CEE), Rosario, Argentina, 2018.</li>
+      </ul>
+    </div>
+    <button type="button" class="colapsable">Experiencia</button>
+    <div class="content">
+      <button type="button" class="colapsable">Gerente de Ventas</button>
+      <div class="content">
+          <h6>Empresa X, Buenos Aires, Argentina<br>
+          (Julio 2021 - Presente)<br>
+          </h6>
+          <ul>
+            <li>Supervisión y liderazgo del equipo de ventas.</li>
+            <li>Desarrollo de estrategias de ventas y marketing para mejorar el rendimiento del equipo y aumentar las ventas.</li>
+            <li>Identificación de nuevas oportunidades de mercado y desarrollo de relaciones comerciales con clientes clave.</li>
+            <li>Análisis de métricas y KPIs de ventas para medir el rendimiento del equipo y tomar decisiones informadas.</li>
+          </ul>
+      </div>
+      <button type="button" class="colapsable">Especialista en Marketing Digital</button>
+      <div class="content">
+          <h6>Empresa Y, Córdoba, Argentina<br>
+          (Agosto 2019 - Junio 2021)<br>
+          </h6>
+          <ul>
+            <li>Diseño y ejecución de campañas de marketing digital para promover los productos y servicios de la empresa.</li>
+            <li>Monitoreo y análisis de métricas de rendimiento para identificar áreas de oportunidad y mejorar la eficacia de las campañas.</li>
+            <li>Gestión de redes sociales, incluyendo la creación de contenido y la interacción con seguidores.</li>
+            <li>Desarrollo y mantenimiento del sitio web de la empresa y del contenido del blog.</li>
+          </ul>
+      </div>
+      <button type="button" class="colapsable">Asistente de Recursos Humanos</button>
+      <div class="content">
+          <h6>Empresa Z, Rosario, Argentina<br>
+          (Febrero 2018 - Julio 2019)<br>
+          </h6>
+          <ul>
+            <li>Coordinación de procesos de selección de personal y entrevistas a candidatos.</li>
+            <li>Manejo de trámites de contratación, nómina y administración de personal.</li>
+            <li>Mantenimiento de registros y bases de datos de personal.</li>
+            <li>Participación en proyectos de capacitación y desarrollo de personal.</li>
+          </ul>
+      </div>
+
+    </div>
+    <button type="button" class="colapsable">Resumen</button>
+    <div class="content">
+      <p>Soy un profesional altamente motivado con experiencia en marketing digital y gestión de proyectos. Me apasiona el desarrollo de estrategias creativas para atraer y retener clientes y me comprometo a alcanzar los objetivos de negocio de la empresa. Tengo habilidades analíticas y de liderazgo y me gusta trabajar en equipo para alcanzar los mejores resultados.</p>
+    </div>
+    <button type="button" class="colapsable">Expectativas</button>
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+    <script src="textocolapsable.js"></script>
+
+    <div class="contenedor">
+      <footer>
+        <h1>Gracias por su tiempo</h1>
+      </footer>
+    </div>
+</body>
+</html>

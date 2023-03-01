@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #a7bcbd;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform:capitalize;
+  color: rgb(0, 0, 0);
+  background-color: hsl(150, 10%, 30%);
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-transform:capitalize;
+  background-color: hsl(150, 10%, 40%);
+  background: linear-gradient(to right  , rgba(43, 54, 78, 0.750), rgb(93, 106, 112, 0.750));
+  margin: 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+  background-color: hsl(150, 10%, 30%);
+  margin: 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  height: 60px;
+  color: rgb(0, 0, 0);
+  background-color: hsl(150, 10%, 40%);
+  margin: 40px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  border-radius: 5px;
+}
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right  , hsla(150, 29%, 24%, 0.25), rgb(93, 106, 112, 0.250));
+  margin: 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 20px;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(to right  , rgba(43, 54, 78, 0.250), rgb(93, 106, 112, 0.250));
+  margin: 10px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+}
+
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.500);
+  text-align: justify;
+  margin-top: 15px;
+  padding: 25px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.256);
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .contenedor {
+      width: 80%;
+  }
+}
+
+#photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10%;
+  margin: 20px;
+  float: left;
+}
+
+.colapsable {
+  margin-top: 2px;
+  background-color: hsl(175, 10%, 50%);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  border-radius: 5px;
+}
+
+.active, .colapsable:hover {
+  background-color: hsl(175, 10%, 35%);
+}
+
+.content {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: hsla(176, 10%, 70%, 0.500);
+}
